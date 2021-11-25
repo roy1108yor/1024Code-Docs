@@ -14,6 +14,10 @@ secret：通过AES算法，用tenantSecret加密字符串tenantCode + nonce + ti
 
 ### JS SDK鉴权
 
+租户的一个用户要进入Playground之前，需要租户后台调用PaaS平台的“发行入场券”接口获取一张入场券（ticket)以及入场地址（ideServerURL)。然后租户的前端把ticket，tenantCode，userId，playgroundId，userName`，ideServerURL等传递给W`ebIDE对象。WebIDE对象会自动连接`ideServerURL与PaaS平台进行连接并鉴权。`
+
+``
+
 首先，租户由 Paas 平台获取 { token, secret }。
 
 以 `*.js` 的方式引入 JS SDK，或以 npm 等包管理工具安装后，在目标文件使用：
@@ -23,3 +27,10 @@ secret：通过AES算法，用tenantSecret加密字符串tenantCode + nonce + ti
 引入后使用 `new DaoPaas({ token, secret })` 获取相应的 IDE 对象。
 
 鉴权将在新建对象时自动完成。
+
+
+
+
+
+
+
