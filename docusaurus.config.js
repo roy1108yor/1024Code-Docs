@@ -8,11 +8,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: '1024PaaS 文档中心',
   tagline: '1024PaaS',
-  url: 'https://docs.1024PaaS.com',
+  url: 'https://1024paas-docs.netlify.app',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo-transparent.png',
   organizationName: 'dao42', // Usually your GitHub org/user name.
   projectName: 'd42paas_docs', // Usually your repo name.
 
