@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '1024PaaS 文档中心',
-  tagline: '1024PaaS',
-  url: 'https://1024paas-docs.netlify.app',
+  title: '1024Code 文档中心',
+  tagline: '1024Code',
+  url: 'https://1024-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo-transparent.png',
   organizationName: 'dao42', // Usually your GitHub org/user name.
-  projectName: 'd42paas_docs', // Usually your repo name.
+  projectName: '1024_docs', // Usually your repo name.
 
   presets: [
     [
@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/dao42/d42paas_docs/edit/main',
+          editUrl: 'https://github.com/dao42/1024_docs/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -37,9 +37,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '1024PaaS 文档中心',
+        title: '1024Code 文档中心',
         logo: {
-          alt: '1024PaaS 文档中心',
+          alt: '1024Code 文档中心',
           src: 'img/logo-transparent.png',
         },
         items: [
@@ -50,7 +50,7 @@ const config = {
             label: '开始指南',
           },
           {
-            href: 'https://github.com/dao42/d42paas_docs',
+            href: 'https://github.com/dao42/1024_docs',
             label: 'GitHub',
             position: 'right',
           },
