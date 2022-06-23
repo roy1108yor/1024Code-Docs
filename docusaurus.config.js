@@ -42,19 +42,19 @@ const config = {
           alt: '1024Code 文档中心',
           src: 'img/logo-transparent.png',
         },
-      //   items: [
-      //     {
-      //       type: 'doc',
-      //       docId: 'intro',
-      //       position: 'left',
-      //       label: '开始指南',
-      //     },
-      //     {
-      //       href: 'https://github.com/dao42/1024_docs',
-      //       label: 'GitHub',
-      //       position: 'right',
-      //     },
-      //   ],
+        items: [
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: '开始指南',
+          },
+          {
+            href: 'https://github.com/dao42/1024_docs',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
       footer: {
         style: 'dark',
