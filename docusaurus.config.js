@@ -55,7 +55,7 @@ const config = {
       //       position: 'right',
       //     },
       //   ],
-      // },
+      },
       footer: {
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} 1024Code`,
