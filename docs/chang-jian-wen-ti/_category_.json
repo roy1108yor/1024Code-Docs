@@ -1,9 +1,5 @@
 {
   "position": 2.2,
   "label": "常见问题",
-  "collapsible": false,
-  "link": {
-    "type": "doc",
-    "title": "常见问题"
-  }
+  "collapsible": false
 }

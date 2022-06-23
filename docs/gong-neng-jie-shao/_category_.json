@@ -1,9 +1,5 @@
 {
   "position": 2.1,
   "label": "功能介绍",
-  "collapsible": false,
-  "link": {
-    "type": "doc",
-    "title": "功能介绍"
-  }
+  "collapsible": false
 }
