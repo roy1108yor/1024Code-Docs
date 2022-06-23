@@ -3,7 +3,7 @@
   "label": "功能介绍",
   "collapsible": false,
   "link": {
-    "type": "Features",
+    "type": "category",
     "title": "功能介绍"
   }
 }
