@@ -3,7 +3,7 @@
   "label": "常见问题",
   "collapsible": false,
   "link": {
-    "type": "category",
+    "type": "doc",
     "title": "常见问题"
   }
 }
