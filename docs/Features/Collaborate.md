@@ -27,11 +27,7 @@ sidebar_position: 1
 
 ![分享](../assets/分享弹窗.png)
 
-<br />
-
 ## 协作表现
-
-<br />
 
 ### 协作用户头像
 
