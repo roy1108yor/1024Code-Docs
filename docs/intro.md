@@ -9,11 +9,10 @@ sidebar_position: 0
 <br />
 
 ## IDE 界面及功能
-<br />
 
 ![1024Code 产品设计图](./assets/IDE界面.png)
 
-<br />
+
 
 ### 文件树
 
