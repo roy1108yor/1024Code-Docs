@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: yingxuan-docker.pkg.coding.net/1024/1024-docs:${IMAGE_TAG:-latest}
+    image: yingxuan-docker.pkg.coding.net/1024/1024-docs/${REF_TAG}:${IMAGE_TAG:-latest}
     restart: unless-stopped
     networks:
       - net
