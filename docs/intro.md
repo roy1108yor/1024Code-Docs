@@ -27,9 +27,8 @@ sidebar_position: 0
 **数据库**：免费的云端数据库，代码空间的最佳搭档。
 
 
-
 ##  IDE 界面及功能
-![1024Code 产品设计图](./assets/IDE界面.png)
+![1024Code 产品设计图](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/3261657782484_.pic_hd.jpg)
 
 ### **文件窗口**
 
