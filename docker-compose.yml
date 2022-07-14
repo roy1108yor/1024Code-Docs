@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  web:
+    image: yingxuan-docker.pkg.coding.net/1024/1024-docs/${REF_TAG}:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+    networks:
+      - net
+      - traefik
+    deploy:
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=traefik
+        - traefik.requests.services.app1024doc.loadbalancer.server.port=3000
+        - traefik.requests.routers.app1024doc.rule=Host(`docs.1024code.com`)
+        - traefik.requests.routers.app1024doc.tls
+        - traefik.requests.routers.app1024doc.tls.certresolver=myresolver
+        - traefik.requests.routers.app1024doc.middlewares=https_redirect
+
+networks:
+  net:
+  traefik:
+    external: true
