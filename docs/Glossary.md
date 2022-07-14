@@ -8,6 +8,6 @@ sidebar_position: 1
 
 模版：我们准备了一些常用的代码语言和前后端框架的demo模版，它们拥有编写、构建、运行这些代码语言、框架的环境和依赖。
 
-Fork：近义复制、Clone，参照 Github 的 Fork 功能，可以fork自己或他人公开的代码空间。
+Fork：近义复制、Clone，参照 Github 的 Fork 功能，可以fork自己或他人公开的代码空间（包含代码文件及环境）
 
 
