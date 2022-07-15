@@ -12,7 +12,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/logo-transparent.png",
+  favicon: "https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/logo-transparent.png",
   organizationName: "dao42", // Usually your GitHub org/user name.
   projectName: "1024_docs", // Usually your repo name.
 
@@ -42,7 +42,7 @@ const config = {
         title: "1024Code 文档中心",
         logo: {
           alt: "1024Code 文档中心",
-          src: "img/logo-transparent.png",
+          src: "https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/logo-transparent.png",
         },
         items: [
           // {
