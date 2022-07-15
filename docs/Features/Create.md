@@ -2,11 +2,10 @@
 sidebar_position: 0
 ---
 
-
 # 创建代码空间
 
 
-![使用模版创建代码空间](../assets/创建代码空间.png)
+![使用模版创建代码空间](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/3281657782484_.pic_hd.jpg)
 
 ## 使用模版创建代码空间
 
