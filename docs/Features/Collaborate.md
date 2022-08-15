@@ -7,7 +7,7 @@ sidebar_position: 1
 
 在线协作功能是 **1024Code** 当前版本的核心功能， 如下方 GIF 图所展示。可供你在小组合作开发一个程序/项目，远程请求协助解决bug，或编码实时演示和互动等场景时使用。
 
-![在线协作功能Gif](https://1024code.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Findex_page_001.095f8d54.gif&w=1200&q=75)
+![在线协作功能Gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Untitled3.gif)
 
 
 ## 邀请协作
@@ -17,7 +17,7 @@ sidebar_position: 1
 
 ![分享](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/3291657782836_.pic.jpg)
 
-> 邀请内测阶段仅支持邀请（添加）注册用户成为代码空间协作者。若需邀请未注册用户成为协作者，可联系产品经理（微信：inter382112772）为该用户申请注册邀请码。
+> 邀请内测阶段仅支持邀请（添加）注册用户成为代码空间协作者。若需邀请未注册用户成为协作者，可联系产品经理（微信：CodingWith1024Code）为该用户申请注册邀请码。
 > 
 
 ## 协作表现
