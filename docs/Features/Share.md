@@ -16,9 +16,9 @@ sidebar_position: 2
 
 分享的镜像版本代码空间被Embed在一个分享详情页中，如下图：
 
-![1](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Untitled.png)
-
 ![2](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Untitled2.png)
+
+![1](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Untitled.png)
 
 >后续版本中，该页面将开放互动评论功能
 
