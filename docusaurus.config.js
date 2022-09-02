@@ -12,7 +12,8 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/logo-transparent.png",
+  favicon:
+    "https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/logo-transparent.png",
   organizationName: "dao42", // Usually your GitHub org/user name.
   projectName: "1024_docs", // Usually your repo name.
 
@@ -38,6 +39,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: "1024Code 文档中心",
         logo: {
