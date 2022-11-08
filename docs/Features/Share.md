@@ -20,8 +20,6 @@ sidebar_position: 2
 
 ![1](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Untitled.png)
 
->后续版本中，该页面将开放互动评论功能
-
 ## 刷新同步
 
 每次（刷新后）访问该分享链接，都会重新快照一下源代码空间，同步最新改动。
