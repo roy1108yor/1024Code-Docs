@@ -20,23 +20,7 @@ const sidebars = {
       type: "category",
       label: "使用教程",
       collapsible: false,
-      items: [
-        {
-          type: "link",
-          label: "1024Code 教程总览", // 链接标签
-          href: "https://1024code.com/codecubes/yMTzK0B", // 外部 URL
-        },
-        {
-          type: "link",
-          label: "编写并运行 C++ 程序", // 链接标签
-          href: "https://1024code.com/codecubes/gkRjPRW", // 外部 URL
-        },
-        {
-          type: "link",
-          label: "编写并运行 Java Web 项目", // 链接标签
-          href: "https://1024code.com/codecubes/ptOy9Om", // 外部 URL
-        },
-      ],
+      href: "https://1024code.com/codecubes/yMTzK0B", // 外部 URL
     },
   ],
 
