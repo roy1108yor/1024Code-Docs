@@ -11,11 +11,11 @@ services:
       labels:
         - traefik.enable=true
         - traefik.docker.network=traefik
-        - traefik.requests.services.app1024doc.loadbalancer.server.port=3000
-        - traefik.requests.routers.app1024doc.rule=Host(`docs.1024code.com`)
-        - traefik.requests.routers.app1024doc.tls
-        - traefik.requests.routers.app1024doc.tls.certresolver=myresolver
-        - traefik.requests.routers.app1024doc.middlewares=https_redirect
+        - traefik.http.services.app1024doc.loadbalancer.server.port=3000
+        - traefik.http.routers.app1024doc.rule=Host(`doc.1024code.com`)
+        - traefik.http.routers.app1024doc.tls
+        - traefik.http.routers.app1024doc.tls.certresolver=myresolver
+        - traefik.http.routers.app1024doc.middlewares=https_redirect
 
 networks:
   net:
