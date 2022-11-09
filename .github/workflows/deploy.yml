@@ -35,7 +35,7 @@ jobs:
       - name: Initialize production environment
         if: ${{ github.ref_name == 'main' }}
         run: |
-          echo "service_id=56014292-216b-4177-8cfe-b8d2f595475c" >> $GITHUB_ENV
+          echo "service_id=b9aa800f-1eaa-4bf6-a199-4632fc0dfada" >> $GITHUB_ENV
 
       - name: Build and push
         uses: docker/build-push-action@v2
