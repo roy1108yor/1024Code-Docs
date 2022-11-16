@@ -14,7 +14,7 @@ sidebar_position: 1
 
 4、代码空间模版可能会有多个不同的版本，比如 C 语言模板的 `GCC` 和` Clang` 版本 （`GCC` 和` Clang` 是不同的环境，`GCC` 环境仅做对了标准库依赖的支持），请按需选择模版创建。
 
-<br>
+<br />
 
 ### 上传文件有什么限制？
 
@@ -28,7 +28,7 @@ sidebar_position: 1
 > 拖拽上传
 ![拖拽上传](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/gif-02.gif)
 
-<br>
+<br />
 
 ### 如何修改运行命令，指定文件运行？
 
