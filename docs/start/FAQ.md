@@ -14,7 +14,7 @@ sidebar_position: 1
 
 4、代码空间模版可能会有多个不同的版本，比如 C 语言模板的 `GCC` 和` Clang` 版本 （`GCC` 和` Clang` 是不同的环境，`GCC` 环境仅做对了标准库依赖的支持），请按需选择模版创建。
 
-
+<br>
 
 ### 上传文件有什么限制？
 
@@ -24,3 +24,16 @@ sidebar_position: 1
    - 或者通过将文件压缩后，先上传压缩包，再解压（在终端执行 `unzip` 命令）的方式完成本地项目文件上传。
 
 2、`Shell` 终端支持 `git` 命令，若您有存储在 `github` 的项目，你可以用 `git clone` 命令 `clone` 项目文件。
+
+> 拖拽上传
+![拖拽上传](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/gif-02.gif)
+
+<br>
+
+### 如何修改运行命令，指定文件运行？
+
+可以在隐藏的.1024文件里设置编译命令和运行命令。如下图：
+
+![显示隐藏文件](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/5421666083446_.pic.jpg)
+
+![查看.1024文件](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/5431666083541_.pic.jpg)
