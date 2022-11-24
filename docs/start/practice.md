@@ -254,7 +254,7 @@ pkgs.spawn_fcgi
 <br />
 
 ## 实例代码空间
-<iframe style="width: 100%; background-color: #151617; border-radius: 8px; height: 680px;" src="https://1024code.com/embed-ide/@1024Code/Hx4rXEE"></iframe>
+<iframe class="embed" src="https://1024code.com/embed-ide/@1024Code/Hx4rXEE"></iframe>
 
 
 
