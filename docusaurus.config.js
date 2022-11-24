@@ -64,10 +64,10 @@ const config = {
           // },
         ],
       },
-      footer: {
-        style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} 1024Code`,
-      },
+      // footer: {
+      //   style: "dark",
+      //   copyright: `Copyright © ${new Date().getFullYear()} 1024Code`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

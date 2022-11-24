@@ -259,4 +259,5 @@ pkgs.spawn_fcgi
 ## 其它 FastCGI 实例
 
 https://1024code.com/codecubes/gUd10C4 《FastCGI Get方法实例》
+
 https://1024code.com/codecubes/3aqy0Wu 《FastCGI 文件上传功能实例》
