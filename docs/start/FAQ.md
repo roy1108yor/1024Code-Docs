@@ -4,8 +4,6 @@ sidebar_position: 4
 
 # 常见问题
 
-## IDE 相关
-
 ### #1 编程环境有哪些需要注意的事项？
 
 1、代码空间基于Linux环境，所以如 `Win32file` 等其他操作系统（如Windows系统）特定的依赖包将无法使用。
@@ -47,10 +45,3 @@ sidebar_position: 4
 `.1024nix` 为受限的隐藏文件，所以需要我们在 shell 中用 vim 命令对文件进行修改，或者使用`cp` 命令将`.1024nix` 复制成新文件到文件树打开进行修改， 如`cp .1024nix 1`。修改后，在`cp 1 .1024nix` 使 “1” 文件中的内容覆盖`.1024nix` 文件中的内容；并在shell中执行 `nix-shell .1024nix --run bash` 命令来为环境添加这几个依赖。
     
 ![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/%E4%B8%BAnginx%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E9%A1%B9.gif)
-
-### 
-
-## 其他
-
-### #1 如何上传本地项目到 1024Code 运行和分享
-
