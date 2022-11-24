@@ -1,18 +1,11 @@
+ 
 ---
-sidebar_position: 0
+sidebar_position: 1
 ---
 
-# 创建代码空间
+# 支持的语言环境
 
-## 使用模版创建代码空间
-
-![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/%E5%88%9B%E5%BB%BAC%2B%2B%E4%BB%A3%E7%A0%81%E7%A9%BA%E9%97%B4.gif)
-
-在个人工作台-主页 或 模板 页面 里选择并点击模板创建代码空间。跳出代码空间创建弹窗，选择模版版本，再填写代码空间名称后提交创建.
-
-提交后将 Fork 该模板创建一个新的代码空间，并跳转到IDE界面。
-
-## 当前支持模版
+在 1024Code ，我们可以使用模版创建代码空间，支持以下模版及其需要的环境。
 
  | 模版名称 | 模版说明 | 
  | ----------- | ----------- |
@@ -32,7 +25,4 @@ sidebar_position: 0
  | Express | Express 是基于 Node.js 的 Web 应用开发框架，以快速、无约束、极简而闻名。它基于 JavaScript 构建，学习曲线相对较平缓，具备灵活性、简单性和可扩展性。 |
  | Vue.js | Vue 是一个非常受欢迎的 JavaScript 框架。Vue 是一个构建接口的渐进式 JavaScript 框架，它从一开始就被设计成为可以逐步采用的。Vue 最主要的优势之一是，它从竞争对手（Angular 和 React）那里吸取了许多优质成分，并向其中加入了自己的特色。 |
  | React.js | React 是一个声明式，高效且灵活的用于构建用户界面的 JavaScript 库。React 的设计思想极其独特，性能出众，代码逻辑却非常简单。 |
-
-
-
 

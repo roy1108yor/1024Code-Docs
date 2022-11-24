@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
-# 使用在线IDE实践新学习的技术
+# 使用在线IDE实践新技术
 
 `在线IDE`具备无需配置基础环境，随时随地，任一设备，打开浏览器即可编写和运行程序的优势，遇到bug时也可以分享`在线IDE`环境请求他人帮助，以便对方更好的结合上下文、开发环境定位问题。
 
@@ -19,11 +19,11 @@ sidebar_position: 2
 
 配置步骤：
 
-1. 在线创建 C++ 代码空间 
+1、在线创建 C++ 代码空间 
     
     ![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/%E5%88%9B%E5%BB%BAC%2B%2B%E4%BB%A3%E7%A0%81%E7%A9%BA%E9%97%B4.gif)
     
-2. 源码安装 Nginx
+2、源码安装 Nginx
     
     在代码空间的 linux shell 中执行下载和解压命令进行安装：
     ```
@@ -32,7 +32,7 @@ sidebar_position: 2
     ```
     ![png](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/%E6%BA%90%E7%A0%81%E5%AE%89%E8%A3%85Nginx.png)
     
-3. 在环境中添加Nginx需要的依赖项
+3、在环境中添加Nginx需要的依赖项
     
     1024Code 使用 [NixOS](https://search.nixos.org/packages?channel=22.05&show=pcre&from=0&size=50&sort=relevance&type=packages&query=pcre) 管理对 IDE进行环境管理（不支持sudu和apt），我们需要通过修改代码空间的nix配置文件 `.1024nix`，在 `.1024nix` 的 packages 中添加新的依赖项：
     
@@ -46,7 +46,7 @@ sidebar_position: 2
     
     ![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/%E4%B8%BAnginx%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E9%A1%B9.gif)
 
-4. 通过 `configure`指定 `nginx`的安装路径
+4、通过 `configure`指定 `nginx`的安装路径
     
     ```
     mkdir -p /home/runner/tmp/nginx
@@ -67,7 +67,7 @@ sidebar_position: 2
     
     ![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/configure%E6%8C%87%E5%AE%9Anginx%E8%B7%AF%E5%8A%B2.gif)
     
-5. 编译 nginx
+5、编译 nginx
     
     ```
     cd nginx-1.23.1
@@ -96,7 +96,7 @@ pkgs.spawn_fcgi
 
 ## 编写并运行第一个CGI程序
 
-1. 打开 nginx/conf/nginx.conf 文件，修改服务监听端口为8080，并添加对 cgi 的解析：
+1、打开 nginx/conf/nginx.conf 文件，修改服务监听端口为8080，并添加对 cgi 的解析：
     
     ```
     # ...
@@ -118,14 +118,14 @@ pkgs.spawn_fcgi
     
     ![png](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/edit%20nginx.conf.png)
     
-2. 启动 `fcgiwrap`
+2、启动 `fcgiwrap`
     
     ```
-    $    spawn-fcgi -f fcgiwrap -p 9000
+    spawn-fcgi -f fcgiwrap -p 9000
     ```
     ![png](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/spawn-fagiwrap.png)
     
-3. 创建一个 `cpp` 文件，写一个 `CGI Demo`程序 
+3、创建一个 `cpp` 文件，写一个 `CGI Demo`程序 
     
     ```cpp
     // demo.cpp
@@ -146,7 +146,7 @@ pkgs.spawn_fcgi
     }
     ```
     
-4. 编译 `Demo` 程序，启动`nginx`，页面访问测试
+4、编译 `Demo` 程序，启动`nginx`，页面访问测试
 
     在shell中使用g++命令编译，并发送可执行文件到 `html` 下
     ```bash
@@ -159,11 +159,11 @@ pkgs.spawn_fcgi
     新标签页打开浏览器窗口，在地址栏中添加/demo.cgi尾缀，访问该页面
     ![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/compliedemohosttest.gif)
     
-5. 优化启动命令
+5、优化启动命令
     
     目前 `fcgiwrap` 只有启动命令，如果重启还需要通过 `ps` 参考对应进程号，在通过 `kill` 干掉。那么我们是否可以通过shell，弄一个类似 `nginx` 的这种模式呢？如下：
 
-    5.1 创建 fcgi.sh 文件
+5.1 创建 fcgi.sh 文件
 
     ```bash
     # fcgi.sh
@@ -212,7 +212,7 @@ pkgs.spawn_fcgi
     exit 0
     ```
 
-    5.2 fcgi.sh 文件创建好后，我们在 shell 里执行以下命令来启动和停止 `fcgiwrap` 了：
+5.2 fcgi.sh 文件创建好后，我们在 shell 里执行以下命令来启动和停止 `fcgiwrap` 了：
 
     ```bash
     #启动
@@ -223,7 +223,7 @@ pkgs.spawn_fcgi
     sh /home/runner/app/fcgi.sh restart
     ```
     
-    5.3 然后，我们可以基于pid文件是否存在来判断 `fcgiwrap` 和 `nginx` 是否运行，就可以做一个启动命令，绑定到 运行 按钮下。
+5.3 然后，我们可以基于pid文件是否存在来判断 `fcgiwrap` 和 `nginx` 是否运行，就可以做一个启动命令，绑定到 运行 按钮下。
     
     ```bash
     # main.sh
@@ -246,15 +246,17 @@ pkgs.spawn_fcgi
     done
     ```
     
-    5.4 修改运行命令为 "sh main.sh"(在 .1024 文件中)，点击运行按钮一键启动 `nginx`、 `fcgiwrap` 
+5.4 修改运行命令为 "sh main.sh"(在 .1024 文件中)，点击运行按钮一键启动 `nginx`、 `fcgiwrap` 
     
     ![gif](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Cases/edit.1024run.gif)
 
+## Demo 程序代码空间
 
-<br />
-
-## 实例代码空间
 <iframe class="embed" src="https://1024code.com/embed-ide/@1024Code/Hx4rXEE"></iframe>
 
+---
 
+## 其它 FastCGI 实例
 
+https://1024code.com/codecubes/gUd10C4 《FastCGI Get方法实例》
+https://1024code.com/codecubes/3aqy0Wu 《FastCGI 文件上传功能实例》
