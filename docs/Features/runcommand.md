@@ -15,12 +15,12 @@ sidebar_position: 6
 
 2、Java：https://baike.baidu.com/item/javac/5156702?fr=aladdin
 
-3、Python3 运行命令：python3 <源文件路径>
+3、go：http://c.biancheng.net/view/6046.html
 
-4、go：http://c.biancheng.net/view/6046.html
+4、Python3 运行命令：python3 <源文件路径>
 
 5、其他语言环境：略
 
 ## 设置运行是否包含图形输出（GUI）
 
-包含图形输出（GUI）的程序需要选择勾选此开关，在运行前会先初始化 GUI 服务。默认不勾选，即运行前无需初始化 GUI 服务，以节省代码空间容器资源（每个代码空间默认分配1G大小的容器）。
+包含图形输出（GUI）的程序需要选择勾选此开关，在运行前会先初始化 GUI 服务。默认不勾选，即运行前无需初始化 GUI 服务。
