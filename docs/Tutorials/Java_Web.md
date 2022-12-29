@@ -17,6 +17,7 @@ $ wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.83/bin/apache-tomcat-8.5.83
 ```
 $ unzip apache-tomcat-8.5.83.zip 
 ```
+
 ![下载安装Tomcat](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85Tomcat.png)
 
 ## 创建或上传项目文件
@@ -64,12 +65,13 @@ $ unzip apache-tomcat-8.5.83.zip
 ```
 # 在shell中连接数据库，<host> 、<port> 和密码在资源（数据库）管理面板查看
 # ex: mysql -h 172.16.32.18 -P 57983 -u root -p
-mysql -h <host> -P <port> -u root -p
-mysql> create database 数据库名;     # 创建数据库
-mysql> use 数据库名;       # 使用已创建的数据库 
-mysql> set names utf8;      # 设置编码
-mysql> source /home/runner/app/student-system/script/student-system.sql # 导入备份数据库初始化数据库
-mysql> quit    # 退出数据库
+---
+$ mysql -h <host> -P <port> -u root -p
+$ mysql> create database 数据库名;     # 创建数据库
+$ mysql> use 数据库名;       # 使用已创建的数据库 
+$ mysql> set names utf8;      # 设置编码
+$ mysql> source /home/runner/app/student-system/script/student-system.sql # 导入备份数据库初始化数据库
+$ mysql> quit    # 退出数据库
 ```
 ![初始化数据库](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/%E6%95%99%E7%A8%8B/%E5%88%9D%E5%A7%8B%E5%8C%96%E6%95%B0%E6%8D%AE%E5%BA%93.png)
 
@@ -103,6 +105,7 @@ maven 常用命令：
 ```
 $ mvn package
 ```
+
 ![mvn package](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/%E6%95%99%E7%A8%8B/06.gif)
 
 打包好的 war 包可以在项目文件夹下载 target 文件夹（隐藏文件夹）下找到。
