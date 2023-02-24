@@ -4,7 +4,16 @@ sidebar_position: 0
 
 # 编写并运行 C++ 程序
 
-在 1024Code 我们可以选择预先安装好相应的环境(依赖)的模版和模版版本。拿 C++ 举例，我们分别支持了三个不同版本的模板：
+在 
+
+
+
+
+
+
+
+
+我们可以选择预先安装好相应的环境(依赖)的模版和模版版本。拿 C++ 举例，我们分别支持了三个不同版本的模板：
 
 - GCC：C/C++ 的编译器套件
 - Clang：Clang 编译器，Clang 对语法的要求是最严格的，因此在 Clang 能编译通过的代码，在 GCC 上一般都能编译成功
@@ -49,8 +58,7 @@ sidebar_position: 0
 
   ![拖拽上传](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/gif-02.gif)
 
-- 其它上传方式见：https://docs.1024code.com/common_problem/uploadfile
-
+- 其它上传方式见：[常见问题文档](https://docs.1024code.com/start/FAQ#2-%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%9C%89%E4%BB%80%E4%B9%88%E9%99%90%E5%88%B6)
 - 在 shell 里使用 `cd` 和 `mv` 命令将文件夹里的文件移动到根目录下
 
   ![将文件夹里的文件移动到根目录下](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/WX20221018-165224%402x.png)
