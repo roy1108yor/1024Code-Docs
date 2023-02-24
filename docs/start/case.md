@@ -5,7 +5,7 @@ sidebar_position: 2
 
 | 使用场景 | 价值 | 
 | ----------- | --------- | 
-| [使用在线IDE实践新学习的技术](https://docs.1024code.com/cases/practice) | 免配置环境，即开即用 | 
+| [使用在线IDE实践新学习的技术](https://docs.1024code.com/Tutorials/practice) | 免配置环境，即开即用 | 
 | 在遇到bug时分享在线IDE环境给他人请求帮助 | 有效提升请求他人解决问题的效率 | 
 | 使用在线协同IDE进行小组协作编程 | 在同一个开发环境中实时协同，跟踪每一个操作事件，无需为代码合并冲突而担忧 | 
 | 无需部署，一键分享项目体验环境和源码 | Talk is cheap, Show me the Code | 
