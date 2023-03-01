@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # 常见问题
 
-### #1 编程环境有哪些需要注意的事项？
+### 1 编程环境有哪些需要注意的事项？
 
 1、代码空间基于Linux环境，所以如 `Win32file` 等其他操作系统（如Windows系统）特定的依赖包将无法使用。
 
@@ -14,7 +14,7 @@ sidebar_position: 4
 
 <br />
 
-### #2 上传文件有什么限制？
+### 2 上传文件有什么限制？
 
 1、上传文件支持选择文件上传和拖拽上传，但：
 
@@ -28,7 +28,7 @@ sidebar_position: 4
 
 <br />
 
-### #3 如何修改运行命令，指定文件运行？
+### 3 如何修改运行命令，指定文件运行？
 
 ![设置运行和编译命令](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/editruncommand.png)
 
@@ -36,9 +36,9 @@ sidebar_position: 4
 
 配置规则参考：https://docs.1024code.com/Features/runcommand
 
-### #4 无法使用 sudu 和 apt 命令
+### 4 无法使用 sudu 和 apt 命令
 
-1024Code 使用 [NixOS](https://search.nixos.org/packages?channel=22.05&show=pcre&from=0&size=50&sort=relevance&type=packages&query=pcre) 管理对 IDE进行环境管理（不支持sudu和apt），我们需要通过修改代码空间的nix配置文件 `.1024nix`，在 `.1024nix` 的 packages 中添加新的依赖项。
+1024Code 使用 [NixOS](https://search.nixos.org/packages?channel=22.05&show=pcre&from=0&size=50&sort=relevance&type=packages&query=pcre) 对 IDE 进行环境管理（不支持sudu和apt），我们需要通过修改代码空间的nix配置文件 `.1024nix`，在 `.1024nix` 的 packages 中添加新的依赖项。
        
 `.1024nix` 为受限的隐藏文件，所以需要我们在 shell 中用 vim 命令对文件进行修改，或者使用`cp` 命令将`.1024nix` 复制成新文件到文件树打开进行修改， 如`cp .1024nix 1`。修改后，再执行`cp 1 .1024nix` 命令，使 “1” 文件中的内容覆盖`.1024nix` 文件中的内容；然后点击运行按钮，重新运行项目，以更新环境基础依赖。
     
