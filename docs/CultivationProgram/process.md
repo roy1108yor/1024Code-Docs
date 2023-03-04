@@ -1,5 +1,5 @@
 ---
-sidebar_position: 0
+sidebar_position: 1
 ---
 
 # 加入流程
@@ -15,8 +15,11 @@ sidebar_position: 0
 ## 第二步：提交信息等待审核
 
 申请提交成功后请耐心等待审核，一般会在24小时内收到审核消息的通知，请留意手机短信。
+
 ![4](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/%E5%9F%B9%E8%82%B24.png)
+
 通过后会收到如下短信：
+
 ![5](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/%E5%9F%B9%E8%82%B25.png)
 
 ## 第三步：完成初步考核任务
