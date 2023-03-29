@@ -12,7 +12,7 @@ sidebar_position: 0
 
 提交后将 Fork 该模板创建一个新的代码空间，并跳转到IDE界面。
 
-## 当前支持模版
+### 当前支持模版
 
  | 模版名称 | 模版说明 | 
  | ----------- | ----------- |
@@ -34,5 +34,15 @@ sidebar_position: 0
  | React.js | React 是一个声明式，高效且灵活的用于构建用户界面的 JavaScript 库。React 的设计思想极其独特，性能出众，代码逻辑却非常简单。 |
 
 
+## [新增] 从本地导入项目创建代码空间
+
+代码空间创建支持从本地导入项目（压缩包）的方式创建，并结合导出功能，来和本地项目进行同步。
+
+导入创建操作步骤如下：
+
+![从本地导入项目创建代码空间](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/daorucj.gif)
 
 
+在IDE界面左侧文件树窗口内可操作导出项目文件：
+
+![导出项目文件](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/daochuwenjian.png)

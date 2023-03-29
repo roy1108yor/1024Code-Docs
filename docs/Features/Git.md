@@ -6,7 +6,7 @@ sidebar_position: 3
 
 **1024Code** 支持使用 Git 的源代码管理功能对代码及代码版本进行管理。
 
-![1024Code 产品设计图](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/3301657783324_.pic.jpg)
+![git模块](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/791679415742_.pic.jpg)
 ## 分支
 
 * 代码空间创建后会给代码空间默认生成 `master` 分支
@@ -22,13 +22,16 @@ sidebar_position: 3
   - D：删除的文件
 * U 和 D 标记的文件，支持点击后在编辑器里打开查看
 
-* [*即将上线*] diff：有改动的标记了 M 的文件，支持 `diff`
-
 ## Commit
 
 在文件内容有改动，更改区域有内容后，可以在界面上可视化操作提交当前更改。
-## Commit 记录
+![genggaicommit](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/genggaicommit.png)
+## 更多 Git 操作在终端 shell 中执行
 
-历史提交可以在下方版本记录即 `Commit` 记录里查看，对每一个 `Commit` 记录支持：
-* 查看变更文件：查看当时变更的文件及当时其变更内容[*即将上线*]
-* 回退到此版本：支持回退文件内容到某一历史版本
+> 在IDE内 Git版本管理窗口中，有这些 Git 操作终端命令的的提示，操作前查看提示即可
+
+![gitlog](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/gitlog.png)
+![gitrevert/reset](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/gitrevert.png)
+![branchcheckout](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/branchcheckout.png)
+![gitmerge](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/gitmerge.png)
+

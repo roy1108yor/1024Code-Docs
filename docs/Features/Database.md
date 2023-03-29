@@ -14,7 +14,7 @@ sidebar_position: 4
 
 在 IDE 界面左侧导航栏点击资源管理模块图标，切换打开资源管理窗口。
 
-![资源管理模块](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/%E6%95%B0%E6%8D%AE%E5%BA%93.png)
+![资源管理模块](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/database.png)
 
 在「添加数据库」区域点击 「MySQL」，向服务端发出创建请求：
 
@@ -25,6 +25,14 @@ sidebar_position: 4
 
 创建成功后，点击MySQL打开详情查看 `MYSQL_HOST` 、`MYSQL_PASSWORD` 等环境变量信息，并使用其建立 MySQL 和代码空间的连接。
 
-![资源管理模块](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/doc_assets/Mysql%20Detail.png)
+![资源管理模块](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/mysql.png)
 
 >云端数据库资源与代码空间绑定，代码空间需要保持激活状态，数据库才能正常使用。
+
+### 在终端 Shell 里使用命令连接
+
+![zaidaimalilianjie](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/zaishelllilianjie.png)
+
+### 在代码里使用环境变量连接
+
+![zaidaimalilianjie](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/zaidaimalilianjie.png)
