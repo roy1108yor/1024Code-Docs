@@ -57,9 +57,11 @@ debug:
 1. 在 `shell` 中 `vi/vim` 打开 `.1024nix` 文件
 2. 在`packages`中添加需要的依赖，如`pkgs.gdb`
 3. 额外指定nix文件的overlays，修改`.1024nix` 文件第一行内容，比如：
-``` diff
-- { pkgs ? import <nixpkgs> {} }
-+ { pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: 
+``` py
+# 删除第一行
+# { pkgs ? import <nixpkgs> {} }
+# 新增以替换
+{ pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: 
 ```
 
 ## Java
