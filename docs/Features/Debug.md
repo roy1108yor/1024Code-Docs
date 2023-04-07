@@ -18,7 +18,7 @@ sidebar_position: 3
 
 ## 多人协同调试
 
-在 1024Code IDE 内调试程序时，所有协作者都将看到任何其他协作者所做的所有调试操作，包括：
+在 `1024Code IDE` 内调试程序时，所有协作者都将看到任何其他协作者所做的所有调试操作，包括：
 - 断点
 - 程序暂停的位置
 - 变量的内容
@@ -56,8 +56,8 @@ debug:
 通过`Nix`安装`Debug`需要的基础依赖步骤:
 1. 在 `shell` 中 `vi/vim` 打开 `.1024nix` 文件
 2. 在`packages`中添加需要的依赖，如`pkgs.gdb`
-3. 额外指定nix文件的overlays，修改`.1024nix` 文件第一行内容，比如：
-``` py
+3. 额外指定`nix`文件的`overlays`，修改`.1024nix` 文件第一行内容：
+``` yaml
 # 删除第一行
 # { pkgs ? import <nixpkgs> {} }
 # 新增以替换
@@ -66,7 +66,7 @@ debug:
 
 ## Java
 
-在.1024文件配置：
+在`.1024文件`配置：
     
 ```yaml
 debug:
@@ -79,19 +79,18 @@ debug:
     internalConsoleOptions: neverOpen
   support: true
 
-env
 ```
 
-launch相关参数   [https://code.visualstudio.com/docs/java/java-debugging#_launch](https://code.visualstudio.com/docs/java/java-debugging#_launch)
+`launch`相关参数   [https://code.visualstudio.com/docs/java/java-debugging#_launch](https://code.visualstudio.com/docs/java/java-debugging#_launch)
 
 注意事项
-- java debug 是属于lsp的一个插件启动
-- console为integratedTerminal
-- internalConsoleOptions为neverOpen
+- `java debug` 是属于`lsp`的一个插件启动
+- `console`为`integratedTerminal`
+- `internalConsoleOptions`为`neverOpen`
 
 ## Python3
 
-在.1024文件配置:
+在`.1024文件`配置:
 
 ```yaml
 debug:
@@ -127,7 +126,7 @@ debug:
 
 硬性要求使用`go mod`，需要使用到`dlv` （ `go install github.com/go-delve/delve/cmd/dlv@latest` ）
 
-在nix文件shellHook里加上
+在`nix`文件`shellHook`里加上
 
 ```yaml
 export PATH=$PATH:~/go/bin
@@ -153,7 +152,7 @@ debug:
 
 ## C/C++
 
-在.1024文件配置：
+在`.1024文件`配置：
 
 ```yaml
 debug:
@@ -175,20 +174,20 @@ debug:
 
 
 注意事项
-- 需要使用nix的方式额外安装`gdb`或者`lldb`依赖：
+- 需要使用`nix`的方式额外安装`gdb`或者`lldb`依赖：
 
   ```yaml
   pkgs.gdb // 或者 pkgs.lldb
   pkgs.paaspkgs.cppdap
   ```
 
-- 需要修改在`nix`文件的`overlays`，将第一行改为 { pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: 
+- 需要修改在`nix`文件的`overlays`，将第一行改为` { pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: `
 - 推荐使用`gdb`
 - `externalConsole`为`true`
 
 ## Ruby
 
-在.1024文件配置：
+在`.1024文件`配置：
 
 ```yaml
 debug:
