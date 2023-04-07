@@ -13,8 +13,7 @@ sidebar_position: 6
 
 ## 功能演示
 
-<iframe src="//player.bilibili.com/player.html?aid=312112939&bvid=BV1oN411A7cQ&cid=1084158562&page=1"> </iframe>
-
+<iframe src="//player.bilibili.com/player.html?aid=312112939&bvid=BV1oN411A7cQ&cid=1084158562&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 ## 体验已有合集
 
