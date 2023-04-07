@@ -1,9 +1,9 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 
-# 快捷键支持
+# 快捷键
 
 IDE 支持以下快捷键：
 

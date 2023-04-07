@@ -31,3 +31,12 @@ sidebar_position: 2
 ## 刷新同步
 
 每次（刷新后）访问该分享链接，都会重新快照一下源代码空间，同步最新改动。
+
+## 发布到社区
+
+此外，还可以选择将代码空间发布到社区。这样可以让更多的人看到你的成果，并得到更多的反馈和建议。
+
+发布到社区的代码空间将会取最新的`Git Commit`记录，或提交生成一条新的`Git Commit`记录，用户将始终访问到这一个发布版本的代码，不会伴随着刷新页面，同步你的最新改动。
+
+![gotopublish](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/gotopublish.pic.jpg)
+![publish](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/publish.png)

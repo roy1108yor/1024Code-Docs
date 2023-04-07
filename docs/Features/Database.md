@@ -1,9 +1,9 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 
-# 云端数据库
+# 数据库
 
 102Code 提供云端数据库资源供用户连接使用，暂时支持 Mysql 5.7 的创建和连接
 
