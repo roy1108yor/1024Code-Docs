@@ -48,16 +48,19 @@ sidebar_position: 3
 
 ```yaml
 debug: 
-	compile: string // 编译执行命令,需要目标程序携带调试信息
-	support: bool   // 是否支持debug,向前兼容
-	launch: map[string]any // dap协议launch相关参数
+  compile: string // 编译执行命令,需要目标程序携带调试信息
+  support: bool   // 是否支持debug,向前兼容
+  launch: map[string]any // dap协议launch相关参数
 ```
 
 通过`Nix`安装`Debug`需要的基础依赖步骤:
 1. 在 `shell` 中 `vi/vim` 打开 `.1024nix` 文件
 2. 在`packages`中添加需要的依赖，如`pkgs.gdb`
-3. 额外指定nix文件的overlays，修改`.1024nix` 文件第一行内容，如将 `{ pkgs ? import <nixpkgs> {} }:` 改为 `{ pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: `
-
+3. 额外指定nix文件的overlays，修改`.1024nix` 文件第一行内容，比如：
+``` diff
+- { pkgs ? import <nixpkgs> {} }
++ { pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: 
+```
 
 ## Java
 
@@ -171,10 +174,12 @@ debug:
 
 注意事项
 - 需要使用nix的方式额外安装`gdb`或者`lldb`依赖：
+
   ```yaml
   pkgs.gdb // 或者 pkgs.lldb
   pkgs.paaspkgs.cppdap
   ```
+
 - 需要修改在`nix`文件的`overlays`，将第一行改为 { pkgs ? import <nixpkgs> { overlays = [(import /etc/nix/nixpkgs-showmebug/overlay.nix)];} }: 
 - 推荐使用`gdb`
 - `externalConsole`为`true`
