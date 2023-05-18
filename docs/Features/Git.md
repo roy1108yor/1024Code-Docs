@@ -28,7 +28,7 @@ sidebar_position: 4
 ![genggaicommit](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/genggaicommit.png)
 ## 更多 Git 操作在终端 shell 中执行
 
-> 在IDE内 Git版本管理窗口中，有这些 Git 操作终端命令的的提示，操作前查看提示即可
+> 在 IDE 内 Git 版本管理窗口中，有这些 Git 操作终端命令的的提示，操作前查看提示即可
 
 ![gitlog](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/gitlog.png)
 ![gitrevert/reset](https://1024-staging-1258723534.cos.ap-guangzhou.myqcloud.com/assets/gitrevert.png)
