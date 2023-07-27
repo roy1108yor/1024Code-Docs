@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # 更新日志
 
-## 2023年07月11号new123
+## 2023年07月11号new123++++++new07271449
 
 1. 对外开放了 1024Code GPT API，用户可使用该 API 在 1024Code 上开发自己的AI应用了，详情点击此处查看
 2. 增加了用户全局级别的 ssh 密钥对，支持添加1024Code公钥到 Github/Gitlab/Gitee 等远程代码仓库，通过 git ssh 同步 1024Code 代码仓库和远程代码仓库代码
